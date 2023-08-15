@@ -1,0 +1,45 @@
+Mental Health Questions
+
+	question:"One in __ 10-19 year olds experience a mental disorder"
+	a:"ten"
+	b:"twelve"
+	c:"seven"
+	d:"two"
+	correct:"c"
+
+	question:"Which of these is NOT a factor that affects one mental health?"
+	a:"Pressure to do well in school"
+	b:"Harsh Parenting"
+	c:"Violence"
+	d:"Socio-Economic factors"
+	correct:"a"
+
+	question:"Depression is estimated to occur among _% of 15-19 year olds"
+	a:"1.1"
+	b:"2.8"
+	c:"50"
+	d:"12"
+	correct:"b"
+
+	question:"Depression and anxiety share some of the same symptoms"
+	a:"True"
+	b:"False"
+	c:"I don't know"
+	d:"I don't care but I'll say false"
+	correct:"a"
+
+	question:"Which of these is an eating disorder?"
+	a:"ADHD"
+	b:"OCD"
+	c:"Anorexia Nervosa"
+	d:"Twig disorder"
+	correct:"c"
+
+	question:"Which of these is NOT a sign that one needs help"
+	a:"Losing interest in things you normally enjoy"
+	b:"difficulty sleeping"
+	c:"No motivation to do homework"
+	d:"Excessively exercising/binge eating"
+	correct:"c"
+
+	
