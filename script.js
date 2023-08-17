@@ -58,7 +58,7 @@ const b_text=document.getElementById('b_text')
 const c_text=document.getElementById('c_text')
 const d_text=document.getElementById('d_text')
 const submitBtn=document.getElementById('submit')
-
+const closeBtn=document.getElementById('close')
 let currentQuiz=0
 let score=0
 
@@ -91,7 +91,10 @@ function getSelected(){
         )
         return answer
 }
-
+function gohome()
+{
+window.location="http://localhost:5500/quiz.html"
+}
 submitBtn.addEventListener('click', () => {
     const answer= getSelected()
     if(answer){
@@ -102,12 +105,17 @@ submitBtn.addEventListener('click', () => {
         
         if(currentQuiz < quizData.length){
             loadQuiz()
+
         } else{
+
             quiz.innerHTML=`
             <h2> You answered ${score}/${quizData.length} questions correctly</h2>
 
-            <button onclick="location.reload()"> Reload </button>
+            <button onclick="location.reload()"> Retry </button>
+
+            <button onclick="history.back()"> Exit </button>
             `
         }
     }
 })
+
